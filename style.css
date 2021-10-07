@@ -17,7 +17,7 @@ Hero Main text ("this website is awesome")
 .hero-main-text {
     color: #F9FAF8;
     font-size: 48px;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 /*
@@ -42,17 +42,52 @@ Dark background color (hero and footer)
 /*
 Header Logo Text
 24px #F9FAF8
-
+*/
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+/*
 Button color, call to action background color
 #3882F6
+*/
+button {
+    background-color: #3882F6;
+}
 
+.call-to-action {
+    background-color: #3882F6;
+}
+
+/*
 information header text
 36px extra-bold #1F2937
+*/
+.information-header {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
 
+/*
 Quote section background color
 #E5E7EB
+*/
+.content-two {
+    background-color: #E5E7EB
+}
 
+/*
 Quote text
 36px light italic #1F2937
 */
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
 
+.attribution {
+    font-weight: bolder;
+}
